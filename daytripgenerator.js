@@ -20,7 +20,7 @@ console.log(plannedEntertainment);
 
 let expectationsFullfilled = false;
 while(expectationsFullfilled = false){
-    let expectationsFullfilled = prompt("Requested needs to accomodate");
+     expectationsFullfilled = prompt("Requested needs to accomodate");
 
     switch (new day().changeResult()) {
     case 1:
@@ -36,4 +36,5 @@ while(expectationsFullfilled = false){
         console.log(plannedEntertainment);
     }
 }
+
 
