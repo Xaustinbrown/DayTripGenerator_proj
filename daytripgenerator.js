@@ -16,19 +16,24 @@ let passtimePleasures = ['Kayaking', 'Surfing', 'Hiking', 'Bowling'];
 let plannedEntertainment = passtimePleasures[Math.floor((Math.random() * 4) + 0)];
 console.log(plannedEntertainment);
 
-// let randomReselection = ['selectedDestination', 'desireDiningDestination', 'timelyTransportation', 'plannedEntertainment'];
-// console.log(randomReselection);{
-    
 // }
 
 let expectationsFullfilled = false;
 while(expectationsFullfilled = false){
     let expectationsFullfilled = prompt("Requested needs to accomodate");
 
-}
-
-Switch(expectationEvaluation);{
-    case"1":
+    switch (new day().changeResult()) {
+    case 1:
         console.log(selectedDestination);
         break;
+    case 2:
+        console.log(desireDiningDestination);
+        break;
+    case 3:
+        console.log(timelyTransportation);
+        break;
+    case 4:
+        console.log(plannedEntertainment);
+    }
 }
+
