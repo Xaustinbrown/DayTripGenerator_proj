@@ -5,8 +5,8 @@ let selectedDestination = planeFlight[Math.floor((Math.random() * 4) + 0)];
 console.log(selectedDestination);
 
 let randomRestuarants = ['Roscoes Ribs', 'Bobs Burgers', 'Paulas Pastries', 'Pacific Petes'];
-let desireDiningDestination = randomRestuarants[Math.floor((Math.random() * 4) + 0)];
-console.log(desireDiningDestination);
+let desiredDiningDestination = randomRestuarants[Math.floor((Math.random() * 4) + 0)];
+console.log(desiredDiningDestination);
 
 let transitTravel = ['Trains', 'Buses', 'Car', 'Bike'];
 let timelyTransportation = transitTravel[Math.floor((Math.random() * 4) + 0)];
@@ -27,7 +27,7 @@ while(expectationsFullfilled = false){
         console.log(selectedDestination);
         break;
     case 2:
-        console.log(desireDiningDestination);
+        console.log(desiredDiningDestination);
         break;
     case 3:
         console.log(timelyTransportation);
@@ -37,4 +37,22 @@ while(expectationsFullfilled = false){
     }
 }
 
+expectationsFullfilled = "tripCompleted";
+  console.log("tripCompleted");
+
+selectedDestination = "trip planning";
+    console.log(selectedDestination);
+
+desiredDiningDestination = "dining advisory";
+    console.log(desiredDiningDestination);
+
+timelyTransportation = "travel";
+    console.log(timelyTransportation);
+
+plannedEntertainment = "quality leisurely activities";
+    console.log(plannedEntertainment);
+
+
+
+        
 
